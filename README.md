@@ -41,9 +41,33 @@ Import robot
  
  [Compute Grasp Pose](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Compute_Grasp_Pose.m) <br>
  This command computes the task-space grasping pose required for the manipulator to pick up a part.
-<h3>```ruby
+ 
+```ruby
 yaha se naye include ho rahe
-```</h3>
+```
+
+[Move to Task configuration](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Move_To_Task_Config.m) <br>
+This command moves the manipulator from its current pose to a desired task-space pose.
+
+[Command Picking logic](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Picking_Logic.m) <br>
+This command instructs the robot which parts to pick next based on the order of a preset list.
+
+[Flow chart Pick and Place](https://github.com/rodion0917/DumE/blob/main/src/example_Helper_Flow_Chart_Pick_Place.sfx) <br>
+
+
+[Time based stace inputs](https://github.com/rodion0917/DumE/blob/main/src/example_Helper_Time_Based_State_Inputs_Pick_Place.m) <br>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
