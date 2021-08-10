@@ -41,7 +41,7 @@ Import robot
  
  [Compute Grasp Pose](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Compute_Grasp_Pose.m) <br>
  This command computes the task-space grasping pose required for the manipulator to pick up a part.
-```red
+```ruby
 yaha se naye include ho rahe
 ```
 
