@@ -59,7 +59,9 @@ This command instructs the robot which parts to pick next based on the order of 
 
 
 
-
+```ruby
+Kinova Gen 3 Gripper coll.mat nahi he
+```
 
 
 
