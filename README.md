@@ -12,7 +12,7 @@ The final video for the simulation is in the Images and Video Folder. the simula
 
 # Instructions
 
-<h4> [Build World](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Build_World.m) </h4>
+ [Build World](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Build_World.m)
 
 
 
