@@ -6,16 +6,13 @@ In the project Dum-E, the simulation are done with the help of MATLAB and Simuli
 In this project, our robot Dum-E performs simple task of pick and place using a cad model Kinova Gen 3 Manipulator. <br>
 
 The cad Model, [Kinova Gen 3](https://www.kinovarobotics.com/en/products/gen3-robot) is imported directly to be used in the simulation.
-```
-robot = loadrobot('kinovaGen3', 'DataFormat', 'column');
-```
 
 To perform the task, Environment is created to place shelves, balls and blocks for the robot so that pick and place task is performed.<br>
-The final video for the simulation is in the Images and Video Folder. 
+The final video for the simulation is in the Images and Video Folder. the simulations are then run to 
 
 # Instructions
 
-
+<h4> [Build World](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Build_World.m) </h4>
 
 
 
