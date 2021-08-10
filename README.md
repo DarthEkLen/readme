@@ -38,7 +38,9 @@ Import robot
     planning includes the part in the obstacle avoidance stage. When deactivating the gripper, the placed part is removed <br>
     from the collision meshes of the rigid body tree.
  2. The visualization is updated to move the object being picked up by the gripper. 
-
+ 
+ [Compute Grasp Pose](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Compute_Grasp_Pose.m) <br>
+ This command computes the task-space grasping pose required for the manipulator to pick up a part.
 
 
 
