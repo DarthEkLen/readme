@@ -13,6 +13,7 @@ robot = loadrobot('kinovaGen3', 'DataFormat', 'column');
 To perform the task, Environment is created to place shelves, balls and blocks for the robot so that pick and place task is performed.<br>
 The final video for the simulation is in the Images and Video Folder. 
 
+# Instructions
 
 
 
