@@ -22,6 +22,13 @@ Import robot
  [Detect Parts](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Detect_Parts.m) <br>
  This function detects parts using a list in the coordinator that also provides the pose.
  
+ [Classify Parts](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Classify_Parts.m) <br>
+ This step helps classify the parts to determine where to place them.
+ 
+ [Plan Execute Trajactory](https://github.com/rodion0917/DumE/blob/main/src/example_Helper_Plan_Execute_Trajectory_Pick_Place.m) <br>
+ This function generates a collision-free trajectory between an initial configuration given by JOINTINIT <br> 
+ and a target task-space orientation, provided by TASKFINAL.<br>
+ 
  
 
 
