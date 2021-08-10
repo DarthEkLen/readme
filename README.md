@@ -29,6 +29,7 @@ Import robot
  This function generates a collision-free trajectory between an initial configuration given by JOINTINIT <br> 
  and a target task-space orientation, provided by TASKFINAL.<br>
  
+ [HelperCoordinatorPickPlace](https://github.com/rodion0917/DumE/blob/main/src/example_Helper_Coordinator_Pick_Place.m) <br>
  
 
 
