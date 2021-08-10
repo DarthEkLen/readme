@@ -11,11 +11,12 @@ To perform the task, Environment is created to place shelves, balls and blocks f
 The final video for the simulation is in the Images and Video Folder. the simulations are then run to 
 
 # Instructions
- Import robot
+Import robot
  ```
  robot = loadrobot('kinovaGen3', 'DataFormat', 'column');
  ```
  [Build World](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Build_World.m)
+ 
 
 
 
