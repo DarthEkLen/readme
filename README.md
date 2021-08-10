@@ -16,8 +16,13 @@ Import robot
  ```
  robot = loadrobot('kinovaGen3', 'DataFormat', 'column');
  ```
- [Build World](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Build_World.m)
- this command help create the shelves 
+ [Build World](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Build_World.m) <br>
+ This command help create the shelves, blocks and the spheres so that pick and place task can be comnputed.
+ 
+ [Detect Parts](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Detect_Parts.m) <br>
+ This function detects parts using a list in the coordinator that also provides the pose.
+ 
+ 
 
 
 
