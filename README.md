@@ -27,10 +27,17 @@ Import robot
  
  [Plan Execute Trajactory](https://github.com/rodion0917/DumE/blob/main/src/example_Helper_Plan_Execute_Trajectory_Pick_Place.m) <br>
  This function generates a collision-free trajectory between an initial configuration given by JOINTINIT <br> 
- and a target task-space orientation, provided by TASKFINAL.<br>
+ and a target task-space orientation, provided by TASKFINAL.
  
  [HelperCoordinatorPickPlace](https://github.com/rodion0917/DumE/blob/main/src/example_Helper_Coordinator_Pick_Place.m) <br>
+ This class is used to control the pick-and-place workflow execution.
  
+ [Activate/Deactivate Gripper](https://github.com/rodion0917/DumE/blob/main/src/example_Command_Activate_Gripper.m) <br>
+ This command activates and deactivates the gripper. It has 2 effects:<br>
+ 1. When the gripper is activated, the picked part is added as a collision mesh to the robot rigid body tree so that path<br>
+    planning includes the part in the obstacle avoidance stage. When deactivating the gripper, the placed part is removed <br>
+    from the collision meshes of the rigid body tree.
+ 2. The visualization is updated to move the object being picked up by the gripper. 
 
 
 
